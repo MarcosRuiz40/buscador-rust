@@ -9,7 +9,7 @@ CLI en rust para buscar palabras en un archivo de texto
 * Mostrar número de línea
 * Contar coincidencias
 
-##Uso
+## Uso
 
 Ejecutar:
 
@@ -31,7 +31,7 @@ Luego ingresar:
 Se encontraron 2 coincidencias
 ```
 
-##Tecnologías
+## Tecnologías
 
 * Rust
 
