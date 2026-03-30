@@ -43,3 +43,18 @@ Este proyecto me permitió practicar:
 * Entrada por consola (`stdin`)
 * Iteradores (`.lines()`, `.enumerate()`)
 * Manejo de strings
+
+---
+
+## 2. Agregar sección “Mejoras futuras”
+
+```md
+## 🔮 Mejoras futuras
+
+- Soporte para argumentos por línea de comandos
+- Flags como `-i` para ignorar mayúsculas
+- Mejor manejo de errores
+
+## Nota
+
+Este proyecto está inspirado en el clásico ejemplo de "grep" de Rust, pero implementado desde cero como práctica personal.
