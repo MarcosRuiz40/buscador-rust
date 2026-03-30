@@ -49,7 +49,7 @@ Este proyecto me permitió practicar:
 ## 2. Agregar sección “Mejoras futuras”
 
 ```md
-## 🔮 Mejoras futuras
+##  Mejoras futuras
 
 - Soporte para argumentos por línea de comandos
 - Flags como `-i` para ignorar mayúsculas
