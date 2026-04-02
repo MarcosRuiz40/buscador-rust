@@ -31,7 +31,7 @@ Se encontraron 2 coincidencias
 
 ## Tecnologías
 
-* Rust
+![Rust](https://img.shields.io/badge/language-Rust-orange)
 
 ## Decisiones aplicadas:
 * Uso de `to_lowecase()` para que al momento de búscar alguna palabra no importe si tiene mayúsculas o minúsculas
