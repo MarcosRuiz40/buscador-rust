@@ -12,12 +12,11 @@ CLI en rust para buscar palabras en un archivo de texto
 ## Uso
 
 Ejecutar:
-
 ```
 cargo run
 ```
 
-Luego ingresar:
+Luego la terminal le solicita:
 
 * nombre del archivo
 * palabra a buscar
@@ -57,4 +56,4 @@ Este proyecto me permitió practicar:
 
 ## Nota
 
-Este proyecto está inspirado en el clásico ejemplo de "grep" de Rust, pero implementado desde cero como práctica personal.
+Este proyecto está inspirado en el clásico ejemplo de "grep" de Rust, pero implementado desde cero como práctica y mejora personal.
