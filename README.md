@@ -1,17 +1,8 @@
 # Buscador de palabras en archivos (Rust)
-CLI en rust para buscar palabras en un archivo de texto 
+Herramienta CLI desarrollada en Rust que permite buscar palabras dentro de archivos de texto, mostrando líneas coincidentes y cantidad total de resultados.
 
-## Funcionalidades
+## Ejecución rápida
 
-* Leer archivos `.txt`
-* Buscar palabras dentro del contenido
-* Ignorar mayúsculas y minúsculas
-* Mostrar número de línea
-* Contar coincidencias
-
-## Uso
-
-Ejecutar:
 ```
 cargo run
 ```
@@ -20,6 +11,14 @@ Luego la terminal le solicita:
 
 * nombre del archivo
 * palabra a buscar
+
+## Funcionalidades
+
+* Leer archivos `.txt`
+* Buscar palabras dentro del contenido
+* Ignorar mayúsculas y minúsculas
+* Mostrar número de línea
+* Contar coincidencias
 
 ## Ejemplo:
 
@@ -34,6 +33,10 @@ Se encontraron 2 coincidencias
 
 * Rust
 
+## Decisiones aplicadas:
+* Uso de `to_lowecase()` para que al momento de búscar alguna palabra no importe si tiene mayúsculas o minúsculas
+* Iteración con `.Line()` y `.Enumerate`
+
 ## Aprendizajes
 
 Este proyecto me permitió practicar:
@@ -47,13 +50,12 @@ Este proyecto me permitió practicar:
 
 ## 2. Agregar sección “Mejoras futuras”
 
-```md
-##  Mejoras futuras
-
 - Soporte para argumentos por línea de comandos
-- Flags como `-i` para ignorar mayúsculas
-- Mejor manejo de errores
+- Flags como `i`
+- Manejo de errores sin `expect`
+- Modularización del código
 
-## Nota
+## Sobre mí
 
-Este proyecto está inspirado en el clásico ejemplo de "grep" de Rust, pero implementado desde cero como práctica y mejora personal.
+Soy estudiante de desarrollo de software enfocado en Rust y backend.
+Este proyecto es parte de mi aprendizaje construyendo herramientas reales.
